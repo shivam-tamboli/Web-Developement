@@ -1,3 +1,7 @@
+body{
+    color: #ffffff;
+    background-color: grey;
+}
 h1{
     color: #ffffff;
     background-color: black;
@@ -5,4 +9,7 @@ h1{
 p{
     color: red;
     background-color: black;
+}
+#p1{
+    color: blue;
 }

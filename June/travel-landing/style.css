@@ -18,6 +18,11 @@ nav a{
     color: #fff;
     margin-left: 15px;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 .hero {
@@ -34,10 +39,17 @@ nav a{
     color: #fff;
     border: none;
     cursor: pointer;
+    font-size: 1em;
+    border-radix: 4px;
+    transition: background 0.3s;
+}
+
+.hero button:hover{
+    background: #e65c00;
 }
 
 .destination, .service, .contact{
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
@@ -52,6 +64,14 @@ nav a{
     background: #f4f4f4;
     padding: 20px;
     border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .service ul{

@@ -1,3 +1,3 @@
 let colors = ['red','blue'];
-
-console.log(colors[0]);
+colors[2] = 'green';
+console.log(colors);

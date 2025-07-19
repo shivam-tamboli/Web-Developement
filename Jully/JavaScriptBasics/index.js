@@ -1,8 +1,3 @@
-let person = {
-    name: 'shivam',
-    age: 34
-};
+let colors = ['red','blue'];
 
-person.name = 'Satyam';
-
-console.log(person)
+console.log(colors[0]);

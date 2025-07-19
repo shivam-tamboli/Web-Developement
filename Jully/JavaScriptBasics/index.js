@@ -1,4 +1,6 @@
-console.log('Hello World');
+let person = {
+    name: 'shivam',
+    age: 34
+};
 
-let s = 'Shivam';
-console.log(s);
+console.log(person)

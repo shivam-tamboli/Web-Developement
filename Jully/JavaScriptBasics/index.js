@@ -1,3 +1,5 @@
-let colors = ['red','blue'];
-colors[2] = 'green';
-console.log(colors);
+function greet(firstName, lastName) {
+    console.log('Hello' + ", "+  firstName + " ");
+}
+
+greet('shivam','Tamboli');

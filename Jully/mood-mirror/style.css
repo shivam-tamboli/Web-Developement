@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    transition: background-color 0.5s rase;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container{
+    text-align: center;
+    padding: 30px;
+    background: white;
+    border-radius: 15px
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.container h1{
+    font-size: 2.5 rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+  
+  /* Buttons */
+.mood-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+  
+.mood-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+}
+  
+.mood-buttons button:hover {
+    background-color: #bbb;
+}
+  
+  /* Display Area */
+.display-area {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+  
+#currentMood {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+  
+#quote {
+    font-size: 1.1rem;
+    color: #444;
+}

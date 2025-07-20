@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Mirror - Daily Mood Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Mirror</h1>
+        <p>Select your current mood:</p>
+
+        <div class="mood-buttons">
+            <button onclick="setMood('Happy')">Happy</button>
+            <button onclick="setMood('Sad')">Sad</button>
+            <button onclick="setMood('Angry')">Angry</button>
+            <button onclick="setMood('Tired')">Tired</button>
+            <button onclick="setMood('Excited')">Excited</button>
+        </div>
+
+        <div class="display-area">
+            <h2 id="currentMood">Your Mood: 😊</h2>
+            <p id="quote">Choose a mood to see your quote!</p>
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
